@@ -1,0 +1,45 @@
+/* we can write cs here */
+/* external style sheet */
+/* inline style sheet  */
+/* internal style sheet */
+/* browser style */
+/* tag selector */
+
+p{
+    color: rgba(0, 0, 255, 0.849);
+    font-size: 20px;
+}
+/* selection by id */
+#def-text {
+    color: brown;
+}
+/* selection by class */
+.red-text {
+    color: red;
+}
+
+p.red-text.big-text {
+    color:green;
+    font: size 32px;
+}
+
+/* error msg */
+.error-msg{
+    color:red ;
+}
+.btn{
+    color: red;
+    border: 1px solid red ;
+    text-decoration: none;
+    background-color: lightcoral;
+    font-family:'Courier New','Courier New', Courier, monospace;
+    font-size: 16px; 
+    padding: 4px;
+
+}
+
+
+    
+button.btn{
+    border: none;
+}
